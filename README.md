@@ -6,6 +6,7 @@ Dado que ruby pasa los "values" de los arrays en las funciones, se utiliza la fu
 ### Condiciones
 * Los obstáculos o caminos recorridos se denotan con -1
 * Los caminos disponibles se denotan con 0
+* Se asumen matrices simétricas
 
 ```ruby
 DIRECCIONES = [[0,1],[0,-1],[1,0],[-1,0]]# guarda las 4 posibilidades de movimientos ↓, ↑, →, ←
