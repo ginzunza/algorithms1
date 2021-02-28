@@ -8,7 +8,7 @@ Dado que ruby pasa los "values" de los arrays en las funciones, se utiliza la fu
 * Los caminos disponibles se denotan con 0
 
 ```ruby
-DIRECCIONES = [[0,1],[0,-1],[1,0],[-1,0]]# guarda las 4 posibilidades de movimientos ←, →, ↓, ↑
+DIRECCIONES = [[0,1],[0,-1],[1,0],[-1,0]]# guarda las 4 posibilidades de movimientos ↓, ↑, →, ←
 
 def copy_a a 
   a.map{|e| e.dup}
