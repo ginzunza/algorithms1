@@ -1,5 +1,5 @@
 # Cantidad de caminos
-Algoritmo que calcula cantidad de caminos posibles para llegar al destino
+Lo que hace este algoritmo es simular todas las posibles combinaciones de rutas para llegar a un destino. Evita obstáculos y siempre avanza en los ejes x e y para posiciones adyacentes.
 
 Dado que ruby pasa los "values" de los arrays en las funciones, se utiliza la función "copy_a" para aplicar de manera recursiva un ".dup" a los elementos del array. De esa forma se simula una copia que no mantiene la referencia.
 
@@ -8,6 +8,8 @@ Dado que ruby pasa los "values" de los arrays en las funciones, se utiliza la fu
 * Los caminos disponibles se denotan con 0
 
 ```ruby
+DIRECCIONES = [[0,1],[0,-1],[1,0],[-1,0]]# guarda las 4 posibilidades de movimientos ←, →, ↓, ↑
+
 def copy_a a 
   a.map{|e| e.dup}
 end
