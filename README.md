@@ -35,3 +35,12 @@ def cantidad_destinos camino, ruta, x, y, caminos = 0
   caminos
 end
 ```
+### Ejemplo
+```ruby
+camino =[
+  [0,0,0],
+  [0,0,0],
+  [0,0,0]
+]
+cantidad_destinos(camino,[[0,0]],0,0)# => 12 caminos posibles
+```
