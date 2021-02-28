@@ -45,4 +45,10 @@ camino =[
   [0,0,0]
 ]
 cantidad_destinos(camino,[[0,0]],0,0)# => 12 caminos posibles
+
+camino =[
+  [0,0],
+  [0,0]
+]
+cantidad_destinos(camino,[[0,0]],0,0)# => 2 caminos posibles
 ```
